@@ -25,9 +25,8 @@
 
 ## 联系方式
 
-- 网站：[recloud.studio](https://recloud.studio)
-- 邮箱：[hello@recloud.studio](mailto:hello@recloud.studio)
-- Discord：[ReCloudStudio](https://discord.gg/recloudstudio)
+- 网站：[worldexecute.me](https://worldexecute.me)
+- 邮箱：[contact@worldexecute.me](mailto:contact@worldexecute.me)
 - Twitter：[@recloudstudio](https://twitter.com/recloudstudio)
 
 ---
