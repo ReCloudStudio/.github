@@ -1,0 +1,38 @@
+name: Member Contribution Report
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+    inputs:
+      fromdate:
+        description: '可选统计起始日期（格式：yyyy-mm-dd）'
+        required: false
+      todate:
+        description: '可选统计结束日期（格式：yyyy-mm-dd）'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  member-contribution-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ORG_TOKEN }}
+
+      - name: Get Member Contributions
+        uses: nicklegan/github-org-member-contribution-action@v1.1.1
+        with:
+          token: ${{ secrets.ORG_TOKEN }}
+          org: ReCloudStudio
+          days: 30
+          sort: commitContrib
+          committer-name: github-actions
+          committer-email: github-actions@github.com
+          fromdate: ${{ github.event.inputs.fromdate }}
+          todate: ${{ github.event.inputs.todate }}

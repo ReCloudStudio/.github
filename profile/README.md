@@ -14,6 +14,11 @@
 | [Shit-Bot](https://github.com/ReCloudStudio/Shit-Bot) | 自动监控 X/Twitter 用户发帖，通过 Discord/Telegram Bot 推送到群组/频道。支持关键词过滤、媒体过滤、推文渲染为图片、多管理员审批。 | TypeScript, SQLite |
 | [x-to-img](https://github.com/ReCloudStudio/x-to-img) | 将 X/Twitter 推文转换为 PNG 图片的 API 服务。支持部署到 Cloudflare Workers / Deno Deploy / Bun。 | Hono, Satori, Cloudflare Workers |
 | [homepage](https://github.com/ReCloudStudio/homepage) | ReCloud Studio 的主页官网。 | Vue / Nuxt.js |
+| [Backuper](https://github.com/ReCloudStudio/Backuper) | 面向服务器的备份工具，支持定时或手动备份目录、MySQL、PostgreSQL 等数据源，并将归档上传至本地、SSH 远程或 S3 兼容对象存储。 | Rust |
+| [Mirror](https://github.com/ReCloudStudio/Mirror) | 将 GitHub 仓库镜像同步至 GitLab / Codeberg / CNB 等平台。 | GitHub Actions |
+| [icon](https://github.com/ReCloudStudio/icon) | ReCloud Studio 品牌图标，提供 SVG 与多尺寸 PNG 构建。 | Python |
+| [icon-showcase](https://github.com/ReCloudStudio/icon-showcase) | ReCloud 图标展示站点。 | Vue |
+| [docs](https://github.com/ReCloudStudio/docs) | ReCloud Studio 文档站点。 | MDX |
 
 ## 成员
 
